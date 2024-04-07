@@ -1,0 +1,1524 @@
+local TeamListGui = Instance.new("ScreenGui")
+local Background4 = Instance.new("Frame")
+local ColorContainer = Instance.new("Frame")
+local ScrollingColors1 = Instance.new("ScrollingFrame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextLabel_31 = Instance.new("TextLabel")
+local TextLabel_32 = Instance.new("TextLabel")
+local TextLabel_33 = Instance.new("TextLabel")
+local TextLabel_34 = Instance.new("TextLabel")
+local ScrollingColors2 = Instance.new("ScrollingFrame")
+local TextLabel_35 = Instance.new("TextLabel")
+local TextLabel_36 = Instance.new("TextLabel")
+local TextLabel_37 = Instance.new("TextLabel")
+local TextLabel_38 = Instance.new("TextLabel")
+local TextLabel_39 = Instance.new("TextLabel")
+local TextLabel_40 = Instance.new("TextLabel")
+local TextLabel_41 = Instance.new("TextLabel")
+local TextLabel_42 = Instance.new("TextLabel")
+local TextLabel_43 = Instance.new("TextLabel")
+local TextLabel_44 = Instance.new("TextLabel")
+local TextLabel_45 = Instance.new("TextLabel")
+local TextLabel_46 = Instance.new("TextLabel")
+local TextLabel_47 = Instance.new("TextLabel")
+local TextLabel_48 = Instance.new("TextLabel")
+local TextLabel_49 = Instance.new("TextLabel")
+local TextLabel_50 = Instance.new("TextLabel")
+local TextLabel_51 = Instance.new("TextLabel")
+local TextLabel_52 = Instance.new("TextLabel")
+local TextLabel_53 = Instance.new("TextLabel")
+local TextLabel_54 = Instance.new("TextLabel")
+local TextLabel_55 = Instance.new("TextLabel")
+local TextLabel_56 = Instance.new("TextLabel")
+local TextLabel_57 = Instance.new("TextLabel")
+local TextLabel_58 = Instance.new("TextLabel")
+local TextLabel_59 = Instance.new("TextLabel")
+local TextLabel_60 = Instance.new("TextLabel")
+local TextLabel_61 = Instance.new("TextLabel")
+local TextLabel_62 = Instance.new("TextLabel")
+local TextLabel_63 = Instance.new("TextLabel")
+local TextLabel_64 = Instance.new("TextLabel")
+local TextLabel_65 = Instance.new("TextLabel")
+local TextLabel_66 = Instance.new("TextLabel")
+local TextLabel_67 = Instance.new("TextLabel")
+local TextLabel_68 = Instance.new("TextLabel")
+local ScrollingColors3 = Instance.new("ScrollingFrame")
+local TextLabel_69 = Instance.new("TextLabel")
+local TextLabel_70 = Instance.new("TextLabel")
+local TextLabel_71 = Instance.new("TextLabel")
+local TextLabel_72 = Instance.new("TextLabel")
+local TextLabel_73 = Instance.new("TextLabel")
+local TextLabel_74 = Instance.new("TextLabel")
+local TextLabel_75 = Instance.new("TextLabel")
+local TextLabel_76 = Instance.new("TextLabel")
+local TextLabel_77 = Instance.new("TextLabel")
+local TextLabel_78 = Instance.new("TextLabel")
+local TextLabel_79 = Instance.new("TextLabel")
+local TextLabel_80 = Instance.new("TextLabel")
+local TextLabel_81 = Instance.new("TextLabel")
+local TextLabel_82 = Instance.new("TextLabel")
+local TextLabel_83 = Instance.new("TextLabel")
+local TextLabel_84 = Instance.new("TextLabel")
+local TextLabel_85 = Instance.new("TextLabel")
+local TextLabel_86 = Instance.new("TextLabel")
+local TextLabel_87 = Instance.new("TextLabel")
+local TextLabel_88 = Instance.new("TextLabel")
+local TextLabel_89 = Instance.new("TextLabel")
+local TextLabel_90 = Instance.new("TextLabel")
+local TextLabel_91 = Instance.new("TextLabel")
+local TextLabel_92 = Instance.new("TextLabel")
+local TextLabel_93 = Instance.new("TextLabel")
+local TextLabel_94 = Instance.new("TextLabel")
+local TextLabel_95 = Instance.new("TextLabel")
+local TextLabel_96 = Instance.new("TextLabel")
+local TextLabel_97 = Instance.new("TextLabel")
+local TextLabel_98 = Instance.new("TextLabel")
+local TextLabel_99 = Instance.new("TextLabel")
+local TextLabel_100 = Instance.new("TextLabel")
+local TextLabel_101 = Instance.new("TextLabel")
+local TextLabel_102 = Instance.new("TextLabel")
+local ScrollingColors4 = Instance.new("ScrollingFrame")
+local TextLabel_103 = Instance.new("TextLabel")
+local TextLabel_104 = Instance.new("TextLabel")
+local TextLabel_105 = Instance.new("TextLabel")
+local TextLabel_106 = Instance.new("TextLabel")
+local TextLabel_107 = Instance.new("TextLabel")
+local TextLabel_108 = Instance.new("TextLabel")
+local TextLabel_109 = Instance.new("TextLabel")
+local TextLabel_110 = Instance.new("TextLabel")
+local TextLabel_111 = Instance.new("TextLabel")
+local TextLabel_112 = Instance.new("TextLabel")
+local TextLabel_113 = Instance.new("TextLabel")
+local TextLabel_114 = Instance.new("TextLabel")
+local TextLabel_115 = Instance.new("TextLabel")
+local TextLabel_116 = Instance.new("TextLabel")
+local TextLabel_117 = Instance.new("TextLabel")
+local TextLabel_118 = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local NumberFrame = Instance.new("Frame")
+local Options = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Page1 = Instance.new("TextButton")
+local Page2 = Instance.new("TextButton")
+local Page3 = Instance.new("TextButton")
+local Page4 = Instance.new("TextButton")
+local PageTitle = Instance.new("TextLabel")
+local Minimize = Instance.new("TextButton")
+
+TeamListGui.Name = "TeamListGui"
+TeamListGui.Parent = game.CoreGui
+TeamListGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Background4.Name = "Background4"
+Background4.Parent = TeamListGui
+Background4.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Background4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Background4.Position = UDim2.new(0, 1559, 0, 201)
+Background4.Size = UDim2.new(0, 353, 0, 42)
+Background4.Active = true
+Background4.Draggable = true
+
+ColorContainer.Name = "ColorContainer"
+ColorContainer.Parent = Background4
+ColorContainer.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+ColorContainer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ColorContainer.Position = UDim2.new(0, 0, 1, 0)
+ColorContainer.Size = UDim2.new(0, 353, 0, 315)
+
+ScrollingColors1.Name = "ScrollingColors1"
+ScrollingColors1.Parent = ColorContainer
+ScrollingColors1.Active = true
+ScrollingColors1.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+ScrollingColors1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingColors1.Size = UDim2.new(0, 353, 0, 315)
+ScrollingColors1.SizeConstraint = Enum.SizeConstraint.RelativeYY
+ScrollingColors1.ScrollBarThickness = 8
+
+TextLabel.Parent = ScrollingColors1
+TextLabel.BackgroundColor3 = Color3.fromRGB(242, 243, 243)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0424929187, 0, 0.0126984138, 0)
+TextLabel.Size = UDim2.new(0, 30, 0, 30)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "White"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 22.000
+
+TextLabel_3.Parent = ScrollingColors1
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(245, 205, 48)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0424929187, 0, 0.0698412731, 0)
+TextLabel_3.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = TextLabel_3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_4.Font = Enum.Font.SciFi
+TextLabel_4.Text = "Brick yellow"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 22.000
+
+TextLabel_5.Parent = ScrollingColors1
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(232, 186, 200)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0424929187, 0, 0.126984134, 0)
+TextLabel_5.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ""
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = TextLabel_5
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_6.Font = Enum.Font.SciFi
+TextLabel_6.Text = "Light reddish violet"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 22.000
+
+TextLabel_7.Parent = ScrollingColors1
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(128, 187, 219)
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.0424929187, 0, 0.184126988, 0)
+TextLabel_7.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+
+TextLabel_8.Parent = TextLabel_7
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_8.Font = Enum.Font.SciFi
+TextLabel_8.Text = "Pastel blue"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 22.000
+
+TextLabel_9.Parent = ScrollingColors1
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(204, 142, 105)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.0424929187, 0, 0.242857143, 0)
+TextLabel_9.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = ""
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
+
+TextLabel_10.Parent = TextLabel_9
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_10.Font = Enum.Font.SciFi
+TextLabel_10.Text = "Nougat"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 22.000
+
+TextLabel_11.Parent = ScrollingColors1
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.0424929187, 0, 0.300000012, 0)
+TextLabel_11.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = ""
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 14.000
+
+TextLabel_12.Parent = TextLabel_11
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_12.Font = Enum.Font.SciFi
+TextLabel_12.Text = "Bright red"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 22.000
+
+TextLabel_13.Parent = ScrollingColors1
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(245, 208, 48)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.0424929187, 0, 0.357142866, 0)
+TextLabel_13.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = ""
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextSize = 14.000
+
+TextLabel_14.Parent = TextLabel_13
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_14.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_14.Font = Enum.Font.SciFi
+TextLabel_14.Text = "Bright yellow"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 22.000
+
+TextLabel_15.Parent = ScrollingColors1
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.0424929187, 0, 0.414285719, 0)
+TextLabel_15.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = ""
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextSize = 14.000
+
+TextLabel_16.Parent = TextLabel_15
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_16.Font = Enum.Font.SciFi
+TextLabel_16.Text = "Black"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 22.000
+
+TextLabel_17.Parent = ScrollingColors1
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(40, 127, 71)
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0.0424929187, 0, 0.471428573, 0)
+TextLabel_17.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = ""
+TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.TextSize = 14.000
+
+TextLabel_18.Parent = TextLabel_17
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_18.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_18.Font = Enum.Font.SciFi
+TextLabel_18.Text = "Dark green"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 22.000
+
+TextLabel_19.Parent = ScrollingColors1
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(161, 196, 140)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.0424929187, 0, 0.528571427, 0)
+TextLabel_19.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = ""
+TextLabel_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.TextSize = 14.000
+
+TextLabel_20.Parent = TextLabel_19
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_20.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_20.Font = Enum.Font.SciFi
+TextLabel_20.Text = "Medium green"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 22.000
+
+TextLabel_21.Parent = ScrollingColors1
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(75, 151, 75)
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0.0424929187, 0, 0.585714281, 0)
+TextLabel_21.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = ""
+TextLabel_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.TextSize = 14.000
+
+TextLabel_22.Parent = TextLabel_21
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_22.BorderSizePixel = 0
+TextLabel_22.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_22.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_22.Font = Enum.Font.SciFi
+TextLabel_22.Text = "Bright green"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 22.000
+
+TextLabel_23.Parent = ScrollingColors1
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(160, 95, 53)
+TextLabel_23.BorderSizePixel = 0
+TextLabel_23.Position = UDim2.new(0.0424929187, 0, 0.642857134, 0)
+TextLabel_23.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = ""
+TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.TextSize = 14.000
+
+TextLabel_24.Parent = TextLabel_23
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_24.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_24.Font = Enum.Font.SciFi
+TextLabel_24.Text = "Dark orange"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 22.000
+
+TextLabel_25.Parent = ScrollingColors1
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(180, 210, 228)
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(0.0424929187, 0, 0.699999988, 0)
+TextLabel_25.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_25.Font = Enum.Font.SourceSans
+TextLabel_25.Text = ""
+TextLabel_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.TextSize = 14.000
+
+TextLabel_26.Parent = TextLabel_25
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_26.BorderSizePixel = 0
+TextLabel_26.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_26.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_26.Font = Enum.Font.SciFi
+TextLabel_26.Text = "Light blue"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 22.000
+
+TextLabel_27.Parent = ScrollingColors1
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(218, 134, 122)
+TextLabel_27.BorderSizePixel = 0
+TextLabel_27.Position = UDim2.new(0.0424929187, 0, 0.757142842, 0)
+TextLabel_27.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_27.Font = Enum.Font.SourceSans
+TextLabel_27.Text = ""
+TextLabel_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.TextSize = 14.000
+
+TextLabel_28.Parent = TextLabel_27
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_28.BorderSizePixel = 0
+TextLabel_28.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_28.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_28.Font = Enum.Font.SciFi
+TextLabel_28.Text = "Medium red"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 22.000
+
+TextLabel_29.Parent = ScrollingColors1
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(110, 153, 202)
+TextLabel_29.BorderSizePixel = 0
+TextLabel_29.Position = UDim2.new(0.0424929187, 0, 0.814285696, 0)
+TextLabel_29.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = ""
+TextLabel_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_29.TextSize = 14.000
+
+TextLabel_30.Parent = TextLabel_29
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_30.BorderSizePixel = 0
+TextLabel_30.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_30.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_30.Font = Enum.Font.SciFi
+TextLabel_30.Text = "Medium blue"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 22.000
+
+TextLabel_31.Parent = ScrollingColors1
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(107, 50, 124)
+TextLabel_31.BorderSizePixel = 0
+TextLabel_31.Position = UDim2.new(0.0424929187, 0, 0.871428549, 0)
+TextLabel_31.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_31.Font = Enum.Font.SourceSans
+TextLabel_31.Text = ""
+TextLabel_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_31.TextSize = 14.000
+
+TextLabel_32.Parent = TextLabel_31
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_32.BorderSizePixel = 0
+TextLabel_32.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_32.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_32.Font = Enum.Font.SciFi
+TextLabel_32.Text = "Bright violet"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextSize = 22.000
+
+TextLabel_33.Parent = ScrollingColors1
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+TextLabel_33.BorderSizePixel = 0
+TextLabel_33.Position = UDim2.new(0.0424929187, 0, 0.928571403, 0)
+TextLabel_33.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_33.Font = Enum.Font.SourceSans
+TextLabel_33.Text = ""
+TextLabel_33.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_33.TextSize = 14.000
+
+TextLabel_34.Parent = TextLabel_33
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_34.BorderSizePixel = 0
+TextLabel_34.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_34.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_34.Font = Enum.Font.SciFi
+TextLabel_34.Text = "Br. yellowish orange"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.TextSize = 22.000
+
+ScrollingColors2.Name = "ScrollingColors2"
+ScrollingColors2.Parent = ColorContainer
+ScrollingColors2.Active = true
+ScrollingColors2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+ScrollingColors2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingColors2.Size = UDim2.new(0, 353, 0, 315)
+ScrollingColors2.SizeConstraint = Enum.SizeConstraint.RelativeYY
+ScrollingColors2.Visible = false
+ScrollingColors2.ScrollBarThickness = 8
+
+TextLabel_35.Parent = ScrollingColors2
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(0, 143, 156)
+TextLabel_35.BorderSizePixel = 0
+TextLabel_35.Position = UDim2.new(0.0424929187, 0, 0.0126984138, 0)
+TextLabel_35.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_35.Font = Enum.Font.SourceSans
+TextLabel_35.Text = ""
+TextLabel_35.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_35.TextSize = 14.000
+
+TextLabel_36.Parent = TextLabel_35
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_36.BorderSizePixel = 0
+TextLabel_36.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_36.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_36.Font = Enum.Font.SciFi
+TextLabel_36.Text = "Bright bluish green"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.TextSize = 22.000
+
+TextLabel_37.Parent = ScrollingColors2
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(164, 189, 71)
+TextLabel_37.BorderSizePixel = 0
+TextLabel_37.Position = UDim2.new(0.0424929187, 0, 0.0698412731, 0)
+TextLabel_37.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_37.Font = Enum.Font.SourceSans
+TextLabel_37.Text = ""
+TextLabel_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_37.TextSize = 14.000
+
+TextLabel_38.Parent = TextLabel_37
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_38.BorderSizePixel = 0
+TextLabel_38.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_38.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_38.Font = Enum.Font.SciFi
+TextLabel_38.Text = "Br. yellowish green"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextSize = 22.000
+
+TextLabel_39.Parent = ScrollingColors2
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(234, 184, 146)
+TextLabel_39.BorderSizePixel = 0
+TextLabel_39.Position = UDim2.new(0.0424929187, 0, 0.126984134, 0)
+TextLabel_39.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_39.Font = Enum.Font.SourceSans
+TextLabel_39.Text = ""
+TextLabel_39.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_39.TextSize = 14.000
+
+TextLabel_40.Parent = TextLabel_39
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_40.BorderSizePixel = 0
+TextLabel_40.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_40.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_40.Font = Enum.Font.SciFi
+TextLabel_40.Text = "Light orange"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextSize = 22.000
+
+TextLabel_41.Parent = ScrollingColors2
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(116, 134, 157)
+TextLabel_41.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_41.BorderSizePixel = 0
+TextLabel_41.Position = UDim2.new(0.0424929187, 0, 0.184126988, 0)
+TextLabel_41.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_41.Font = Enum.Font.SourceSans
+TextLabel_41.Text = ""
+TextLabel_41.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_41.TextSize = 14.000
+
+TextLabel_42.Parent = TextLabel_41
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_42.BorderSizePixel = 0
+TextLabel_42.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_42.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_42.Font = Enum.Font.SciFi
+TextLabel_42.Text = "Sand blue"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.TextSize = 22.000
+
+TextLabel_43.Parent = ScrollingColors2
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(39, 70, 45)
+TextLabel_43.BorderSizePixel = 0
+TextLabel_43.Position = UDim2.new(0.0424929187, 0, 0.242857143, 0)
+TextLabel_43.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_43.Font = Enum.Font.SourceSans
+TextLabel_43.Text = ""
+TextLabel_43.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_43.TextSize = 14.000
+
+TextLabel_44.Parent = TextLabel_43
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_44.BorderSizePixel = 0
+TextLabel_44.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_44.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_44.Font = Enum.Font.SciFi
+TextLabel_44.Text = "Earth green"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.TextSize = 22.000
+
+TextLabel_45.Parent = ScrollingColors2
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(120, 144, 130)
+TextLabel_45.BorderSizePixel = 0
+TextLabel_45.Position = UDim2.new(0.0424929187, 0, 0.300000012, 0)
+TextLabel_45.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_45.Font = Enum.Font.SourceSans
+TextLabel_45.Text = ""
+TextLabel_45.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_45.TextSize = 14.000
+
+TextLabel_46.Parent = TextLabel_45
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_46.BorderSizePixel = 0
+TextLabel_46.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_46.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_46.Font = Enum.Font.SciFi
+TextLabel_46.Text = "Sand green"
+TextLabel_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.TextSize = 22.000
+
+TextLabel_47.Parent = ScrollingColors2
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(149, 121, 119)
+TextLabel_47.BorderSizePixel = 0
+TextLabel_47.Position = UDim2.new(0.0424929187, 0, 0.357142866, 0)
+TextLabel_47.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_47.Font = Enum.Font.SourceSans
+TextLabel_47.Text = ""
+TextLabel_47.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_47.TextSize = 14.000
+
+TextLabel_48.Parent = TextLabel_47
+TextLabel_48.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_48.BorderSizePixel = 0
+TextLabel_48.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_48.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_48.Font = Enum.Font.SciFi
+TextLabel_48.Text = "Sand red"
+TextLabel_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.TextSize = 22.000
+
+TextLabel_49.Parent = ScrollingColors2
+TextLabel_49.BackgroundColor3 = Color3.fromRGB(105, 64, 40)
+TextLabel_49.BorderSizePixel = 0
+TextLabel_49.Position = UDim2.new(0.0424929187, 0, 0.414285719, 0)
+TextLabel_49.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_49.Font = Enum.Font.SourceSans
+TextLabel_49.Text = ""
+TextLabel_49.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_49.TextSize = 14.000
+
+TextLabel_50.Parent = TextLabel_49
+TextLabel_50.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_50.BorderSizePixel = 0
+TextLabel_50.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_50.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_50.Font = Enum.Font.SciFi
+TextLabel_50.Text = "Reddish brown"
+TextLabel_50.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.TextSize = 22.000
+
+TextLabel_51.Parent = ScrollingColors2
+TextLabel_51.BackgroundColor3 = Color3.fromRGB(99, 95, 98)
+TextLabel_51.BorderSizePixel = 0
+TextLabel_51.Position = UDim2.new(0.0424929187, 0, 0.471428573, 0)
+TextLabel_51.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_51.Font = Enum.Font.SourceSans
+TextLabel_51.Text = ""
+TextLabel_51.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_51.TextSize = 14.000
+
+TextLabel_52.Parent = TextLabel_51
+TextLabel_52.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_52.BorderSizePixel = 0
+TextLabel_52.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_52.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_52.Font = Enum.Font.SciFi
+TextLabel_52.Text = "Dark stone grey"
+TextLabel_52.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_52.TextSize = 22.000
+
+TextLabel_53.Parent = ScrollingColors2
+TextLabel_53.BackgroundColor3 = Color3.fromRGB(229, 228, 223)
+TextLabel_53.BorderSizePixel = 0
+TextLabel_53.Position = UDim2.new(0.0424929187, 0, 0.528571427, 0)
+TextLabel_53.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_53.Font = Enum.Font.SourceSans
+TextLabel_53.Text = ""
+TextLabel_53.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_53.TextSize = 14.000
+
+TextLabel_54.Parent = TextLabel_53
+TextLabel_54.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_54.BorderSizePixel = 0
+TextLabel_54.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_54.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_54.Font = Enum.Font.SciFi
+TextLabel_54.Text = "Light stone grey"
+TextLabel_54.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_54.TextSize = 22.000
+
+TextLabel_55.Parent = ScrollingColors2
+TextLabel_55.BackgroundColor3 = Color3.fromRGB(124, 92, 70)
+TextLabel_55.BorderSizePixel = 0
+TextLabel_55.Position = UDim2.new(0.0424929187, 0, 0.585714281, 0)
+TextLabel_55.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_55.Font = Enum.Font.SourceSans
+TextLabel_55.Text = ""
+TextLabel_55.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_55.TextSize = 14.000
+
+TextLabel_56.Parent = TextLabel_55
+TextLabel_56.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_56.BorderSizePixel = 0
+TextLabel_56.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_56.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_56.Font = Enum.Font.SciFi
+TextLabel_56.Text = "Brown"
+TextLabel_56.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_56.TextSize = 22.000
+
+TextLabel_57.Parent = ScrollingColors2
+TextLabel_57.BackgroundColor3 = Color3.fromRGB(253, 234, 141)
+TextLabel_57.BorderSizePixel = 0
+TextLabel_57.Position = UDim2.new(0.0424929187, 0, 0.642857134, 0)
+TextLabel_57.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_57.Font = Enum.Font.SourceSans
+TextLabel_57.Text = ""
+TextLabel_57.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_57.TextSize = 14.000
+
+TextLabel_58.Parent = TextLabel_57
+TextLabel_58.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_58.BorderSizePixel = 0
+TextLabel_58.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_58.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_58.Font = Enum.Font.SciFi
+TextLabel_58.Text = "Cool yellow"
+TextLabel_58.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_58.TextSize = 22.000
+
+TextLabel_59.Parent = ScrollingColors2
+TextLabel_59.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+TextLabel_59.BorderSizePixel = 0
+TextLabel_59.Position = UDim2.new(0.0424929187, 0, 0.699999988, 0)
+TextLabel_59.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_59.Font = Enum.Font.SourceSans
+TextLabel_59.Text = ""
+TextLabel_59.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_59.TextSize = 14.000
+
+TextLabel_60.Parent = TextLabel_59
+TextLabel_60.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_60.BorderSizePixel = 0
+TextLabel_60.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_60.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_60.Font = Enum.Font.SciFi
+TextLabel_60.Text = "Institutional white"
+TextLabel_60.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_60.TextSize = 22.000
+
+TextLabel_61.Parent = ScrollingColors2
+TextLabel_61.BackgroundColor3 = Color3.fromRGB(156, 163, 168)
+TextLabel_61.BorderSizePixel = 0
+TextLabel_61.Position = UDim2.new(0.0424929187, 0, 0.757142842, 0)
+TextLabel_61.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_61.Font = Enum.Font.SourceSans
+TextLabel_61.Text = ""
+TextLabel_61.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_61.TextSize = 14.000
+
+TextLabel_62.Parent = TextLabel_61
+TextLabel_62.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_62.BorderSizePixel = 0
+TextLabel_62.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_62.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_62.Font = Enum.Font.SciFi
+TextLabel_62.Text = "Silver"
+TextLabel_62.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_62.TextSize = 22.000
+
+TextLabel_63.Parent = ScrollingColors2
+TextLabel_63.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+TextLabel_63.BorderSizePixel = 0
+TextLabel_63.Position = UDim2.new(0.0424929187, 0, 0.814285696, 0)
+TextLabel_63.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_63.Font = Enum.Font.SourceSans
+TextLabel_63.Text = ""
+TextLabel_63.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_63.TextSize = 14.000
+
+TextLabel_64.Parent = TextLabel_63
+TextLabel_64.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_64.BorderSizePixel = 0
+TextLabel_64.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_64.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_64.Font = Enum.Font.SciFi
+TextLabel_64.Text = "Really black"
+TextLabel_64.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_64.TextSize = 22.000
+
+TextLabel_65.Parent = ScrollingColors2
+TextLabel_65.BackgroundColor3 = Color3.fromRGB(213, 115, 61)
+TextLabel_65.BorderSizePixel = 0
+TextLabel_65.Position = UDim2.new(0.0424929187, 0, 0.871428549, 0)
+TextLabel_65.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_65.Font = Enum.Font.SourceSans
+TextLabel_65.Text = ""
+TextLabel_65.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_65.TextSize = 14.000
+
+TextLabel_66.Parent = TextLabel_65
+TextLabel_66.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_66.BorderSizePixel = 0
+TextLabel_66.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_66.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_66.Font = Enum.Font.SciFi
+TextLabel_66.Text = "Neon orange"
+TextLabel_66.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_66.TextSize = 22.000
+
+TextLabel_67.Parent = ScrollingColors2
+TextLabel_67.BackgroundColor3 = Color3.fromRGB(180, 128, 255)
+TextLabel_67.BorderSizePixel = 0
+TextLabel_67.Position = UDim2.new(0.0424929187, 0, 0.928571403, 0)
+TextLabel_67.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_67.Font = Enum.Font.SourceSans
+TextLabel_67.Text = ""
+TextLabel_67.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_67.TextSize = 14.000
+
+TextLabel_68.Parent = TextLabel_67
+TextLabel_68.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_68.BorderSizePixel = 0
+TextLabel_68.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_68.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_68.Font = Enum.Font.SciFi
+TextLabel_68.Text = "Alder"
+TextLabel_68.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_68.TextSize = 22.000
+
+ScrollingColors3.Name = "ScrollingColors3"
+ScrollingColors3.Parent = ColorContainer
+ScrollingColors3.Active = true
+ScrollingColors3.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+ScrollingColors3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingColors3.Size = UDim2.new(0, 353, 0, 315)
+ScrollingColors3.SizeConstraint = Enum.SizeConstraint.RelativeYY
+ScrollingColors3.Visible = false
+ScrollingColors3.ScrollBarThickness = 8
+
+TextLabel_69.Parent = ScrollingColors3
+TextLabel_69.BackgroundColor3 = Color3.fromRGB(163, 75, 75)
+TextLabel_69.BorderSizePixel = 0
+TextLabel_69.Position = UDim2.new(0.0424929187, 0, 0.0126984138, 0)
+TextLabel_69.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_69.Font = Enum.Font.SourceSans
+TextLabel_69.Text = ""
+TextLabel_69.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_69.TextSize = 14.000
+
+TextLabel_70.Parent = TextLabel_69
+TextLabel_70.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_70.BorderSizePixel = 0
+TextLabel_70.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_70.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_70.Font = Enum.Font.SciFi
+TextLabel_70.Text = "Dusty rose"
+TextLabel_70.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_70.TextSize = 22.000
+
+TextLabel_71.Parent = ScrollingColors3
+TextLabel_71.BackgroundColor3 = Color3.fromRGB(193, 190, 66)
+TextLabel_71.BorderSizePixel = 0
+TextLabel_71.Position = UDim2.new(0.0424929187, 0, 0.0698412731, 0)
+TextLabel_71.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_71.Font = Enum.Font.SourceSans
+TextLabel_71.Text = ""
+TextLabel_71.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_71.TextSize = 14.000
+
+TextLabel_72.Parent = TextLabel_71
+TextLabel_72.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_72.BorderSizePixel = 0
+TextLabel_72.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_72.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_72.Font = Enum.Font.SciFi
+TextLabel_72.Text = "Olive"
+TextLabel_72.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_72.TextSize = 22.000
+
+TextLabel_73.Parent = ScrollingColors3
+TextLabel_73.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+TextLabel_73.BorderSizePixel = 0
+TextLabel_73.Position = UDim2.new(0.0424929187, 0, 0.126984134, 0)
+TextLabel_73.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_73.Font = Enum.Font.SourceSans
+TextLabel_73.Text = ""
+TextLabel_73.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_73.TextSize = 14.000
+
+TextLabel_74.Parent = TextLabel_73
+TextLabel_74.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_74.BorderSizePixel = 0
+TextLabel_74.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_74.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_74.Font = Enum.Font.SciFi
+TextLabel_74.Text = "New Yeller"
+TextLabel_74.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_74.TextSize = 22.000
+
+TextLabel_75.Parent = ScrollingColors3
+TextLabel_75.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_75.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_75.BorderSizePixel = 0
+TextLabel_75.Position = UDim2.new(0.0424929187, 0, 0.184126988, 0)
+TextLabel_75.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_75.Font = Enum.Font.SourceSans
+TextLabel_75.Text = ""
+TextLabel_75.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_75.TextSize = 14.000
+
+TextLabel_76.Parent = TextLabel_75
+TextLabel_76.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_76.BorderSizePixel = 0
+TextLabel_76.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_76.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_76.Font = Enum.Font.SciFi
+TextLabel_76.Text = "Really blue"
+TextLabel_76.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_76.TextSize = 22.000
+
+TextLabel_77.Parent = ScrollingColors3
+TextLabel_77.BackgroundColor3 = Color3.fromRGB(0, 32, 96)
+TextLabel_77.BorderSizePixel = 0
+TextLabel_77.Position = UDim2.new(0.0424929187, 0, 0.242857143, 0)
+TextLabel_77.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_77.Font = Enum.Font.SourceSans
+TextLabel_77.Text = ""
+TextLabel_77.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_77.TextSize = 14.000
+
+TextLabel_78.Parent = TextLabel_77
+TextLabel_78.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_78.BorderSizePixel = 0
+TextLabel_78.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_78.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_78.Font = Enum.Font.SciFi
+TextLabel_78.Text = "Navy blue"
+TextLabel_78.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_78.TextSize = 22.000
+
+TextLabel_79.Parent = ScrollingColors3
+TextLabel_79.BackgroundColor3 = Color3.fromRGB(33, 84, 185)
+TextLabel_79.BorderSizePixel = 0
+TextLabel_79.Position = UDim2.new(0.0424929187, 0, 0.300000012, 0)
+TextLabel_79.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_79.Font = Enum.Font.SourceSans
+TextLabel_79.Text = ""
+TextLabel_79.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_79.TextSize = 14.000
+
+TextLabel_80.Parent = TextLabel_79
+TextLabel_80.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_80.BorderSizePixel = 0
+TextLabel_80.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_80.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_80.Font = Enum.Font.SciFi
+TextLabel_80.Text = "Deep blue"
+TextLabel_80.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_80.TextSize = 22.000
+
+TextLabel_81.Parent = ScrollingColors3
+TextLabel_81.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+TextLabel_81.BorderSizePixel = 0
+TextLabel_81.Position = UDim2.new(0.0424929187, 0, 0.357142866, 0)
+TextLabel_81.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_81.Font = Enum.Font.SourceSans
+TextLabel_81.Text = ""
+TextLabel_81.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_81.TextSize = 14.000
+
+TextLabel_82.Parent = TextLabel_81
+TextLabel_82.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_82.BorderSizePixel = 0
+TextLabel_82.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_82.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_82.Font = Enum.Font.SciFi
+TextLabel_82.Text = "Cyan"
+TextLabel_82.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_82.TextSize = 22.000
+
+TextLabel_83.Parent = ScrollingColors3
+TextLabel_83.BackgroundColor3 = Color3.fromRGB(170, 0, 170)
+TextLabel_83.BorderSizePixel = 0
+TextLabel_83.Position = UDim2.new(0.0424929187, 0, 0.414285719, 0)
+TextLabel_83.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_83.Font = Enum.Font.SourceSans
+TextLabel_83.Text = ""
+TextLabel_83.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_83.TextSize = 14.000
+
+TextLabel_84.Parent = TextLabel_83
+TextLabel_84.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_84.BorderSizePixel = 0
+TextLabel_84.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_84.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_84.Font = Enum.Font.SciFi
+TextLabel_84.Text = "Magenta"
+TextLabel_84.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_84.TextSize = 22.000
+
+TextLabel_85.Parent = ScrollingColors3
+TextLabel_85.BackgroundColor3 = Color3.fromRGB(255, 102, 204)
+TextLabel_85.BorderSizePixel = 0
+TextLabel_85.Position = UDim2.new(0.0424929187, 0, 0.471428573, 0)
+TextLabel_85.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_85.Font = Enum.Font.SourceSans
+TextLabel_85.Text = ""
+TextLabel_85.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_85.TextSize = 14.000
+
+TextLabel_86.Parent = TextLabel_85
+TextLabel_86.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_86.BorderSizePixel = 0
+TextLabel_86.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_86.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_86.Font = Enum.Font.SciFi
+TextLabel_86.Text = "Pink"
+TextLabel_86.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_86.TextSize = 22.000
+
+TextLabel_87.Parent = ScrollingColors3
+TextLabel_87.BackgroundColor3 = Color3.fromRGB(255, 175, 0)
+TextLabel_87.BorderSizePixel = 0
+TextLabel_87.Position = UDim2.new(0.0424929187, 0, 0.528571427, 0)
+TextLabel_87.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_87.Font = Enum.Font.SourceSans
+TextLabel_87.Text = ""
+TextLabel_87.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_87.TextSize = 14.000
+
+TextLabel_88.Parent = TextLabel_87
+TextLabel_88.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_88.BorderSizePixel = 0
+TextLabel_88.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_88.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_88.Font = Enum.Font.SciFi
+TextLabel_88.Text = "Deep orange"
+TextLabel_88.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_88.TextSize = 22.000
+
+TextLabel_89.Parent = ScrollingColors3
+TextLabel_89.BackgroundColor3 = Color3.fromRGB(18, 238, 212)
+TextLabel_89.BorderSizePixel = 0
+TextLabel_89.Position = UDim2.new(0.0424929187, 0, 0.585714281, 0)
+TextLabel_89.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_89.Font = Enum.Font.SourceSans
+TextLabel_89.Text = ""
+TextLabel_89.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_89.TextSize = 14.000
+
+TextLabel_90.Parent = TextLabel_89
+TextLabel_90.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_90.BorderSizePixel = 0
+TextLabel_90.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_90.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_90.Font = Enum.Font.SciFi
+TextLabel_90.Text = "Teal"
+TextLabel_90.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_90.TextSize = 22.000
+
+TextLabel_91.Parent = ScrollingColors3
+TextLabel_91.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel_91.BorderSizePixel = 0
+TextLabel_91.Position = UDim2.new(0.0424929187, 0, 0.642857134, 0)
+TextLabel_91.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_91.Font = Enum.Font.SourceSans
+TextLabel_91.Text = ""
+TextLabel_91.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_91.TextSize = 14.000
+
+TextLabel_92.Parent = TextLabel_91
+TextLabel_92.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_92.BorderSizePixel = 0
+TextLabel_92.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_92.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_92.Font = Enum.Font.SciFi
+TextLabel_92.Text = "Toothpaste"
+TextLabel_92.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_92.TextSize = 22.000
+
+TextLabel_93.Parent = ScrollingColors3
+TextLabel_93.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+TextLabel_93.BorderSizePixel = 0
+TextLabel_93.Position = UDim2.new(0.0424929187, 0, 0.699999988, 0)
+TextLabel_93.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_93.Font = Enum.Font.SourceSans
+TextLabel_93.Text = ""
+TextLabel_93.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_93.TextSize = 14.000
+
+TextLabel_94.Parent = TextLabel_93
+TextLabel_94.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_94.BorderSizePixel = 0
+TextLabel_94.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_94.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_94.Font = Enum.Font.SciFi
+TextLabel_94.Text = "Lime gren"
+TextLabel_94.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_94.TextSize = 22.000
+
+TextLabel_95.Parent = ScrollingColors3
+TextLabel_95.BackgroundColor3 = Color3.fromRGB(58, 125, 21)
+TextLabel_95.BorderSizePixel = 0
+TextLabel_95.Position = UDim2.new(0.0424929187, 0, 0.757142842, 0)
+TextLabel_95.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_95.Font = Enum.Font.SourceSans
+TextLabel_95.Text = ""
+TextLabel_95.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_95.TextSize = 14.000
+
+TextLabel_96.Parent = TextLabel_95
+TextLabel_96.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_96.BorderSizePixel = 0
+TextLabel_96.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_96.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_96.Font = Enum.Font.SciFi
+TextLabel_96.Text = "Camo"
+TextLabel_96.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_96.TextSize = 22.000
+
+TextLabel_97.Parent = ScrollingColors3
+TextLabel_97.BackgroundColor3 = Color3.fromRGB(127, 142, 100)
+TextLabel_97.BorderSizePixel = 0
+TextLabel_97.Position = UDim2.new(0.0424929187, 0, 0.814285696, 0)
+TextLabel_97.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_97.Font = Enum.Font.SourceSans
+TextLabel_97.Text = ""
+TextLabel_97.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_97.TextSize = 14.000
+
+TextLabel_98.Parent = TextLabel_97
+TextLabel_98.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_98.BorderSizePixel = 0
+TextLabel_98.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_98.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_98.Font = Enum.Font.SciFi
+TextLabel_98.Text = "Grime"
+TextLabel_98.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_98.TextSize = 22.000
+
+TextLabel_99.Parent = ScrollingColors3
+TextLabel_99.BackgroundColor3 = Color3.fromRGB(140, 91, 159)
+TextLabel_99.BorderSizePixel = 0
+TextLabel_99.Position = UDim2.new(0.0424929187, 0, 0.871428549, 0)
+TextLabel_99.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_99.Font = Enum.Font.SourceSans
+TextLabel_99.Text = ""
+TextLabel_99.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_99.TextSize = 14.000
+
+TextLabel_100.Parent = TextLabel_99
+TextLabel_100.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_100.BorderSizePixel = 0
+TextLabel_100.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_100.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_100.Font = Enum.Font.SciFi
+TextLabel_100.Text = "Lavender"
+TextLabel_100.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_100.TextSize = 22.000
+
+TextLabel_101.Parent = ScrollingColors3
+TextLabel_101.BackgroundColor3 = Color3.fromRGB(175, 221, 255)
+TextLabel_101.BorderSizePixel = 0
+TextLabel_101.Position = UDim2.new(0.0424929187, 0, 0.928571403, 0)
+TextLabel_101.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_101.Font = Enum.Font.SourceSans
+TextLabel_101.Text = ""
+TextLabel_101.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_101.TextSize = 14.000
+
+TextLabel_102.Parent = TextLabel_101
+TextLabel_102.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_102.BorderSizePixel = 0
+TextLabel_102.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_102.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_102.Font = Enum.Font.SciFi
+TextLabel_102.Text = "Pastel light blue"
+TextLabel_102.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_102.TextSize = 22.000
+
+ScrollingColors4.Name = "ScrollingColors4"
+ScrollingColors4.Parent = ColorContainer
+ScrollingColors4.Active = true
+ScrollingColors4.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+ScrollingColors4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingColors4.Size = UDim2.new(0, 353, 0, 315)
+ScrollingColors4.SizeConstraint = Enum.SizeConstraint.RelativeYY
+ScrollingColors4.Visible = false
+ScrollingColors4.ScrollBarThickness = 8
+
+TextLabel_103.Parent = ScrollingColors4
+TextLabel_103.BackgroundColor3 = Color3.fromRGB(255, 201, 201)
+TextLabel_103.BorderSizePixel = 0
+TextLabel_103.Position = UDim2.new(0.0424929187, 0, 0.0126984138, 0)
+TextLabel_103.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_103.Font = Enum.Font.SourceSans
+TextLabel_103.Text = ""
+TextLabel_103.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_103.TextSize = 14.000
+
+TextLabel_104.Parent = TextLabel_103
+TextLabel_104.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_104.BorderSizePixel = 0
+TextLabel_104.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_104.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_104.Font = Enum.Font.SciFi
+TextLabel_104.Text = "Pastel orange"
+TextLabel_104.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_104.TextSize = 22.000
+
+TextLabel_105.Parent = ScrollingColors4
+TextLabel_105.BackgroundColor3 = Color3.fromRGB(177, 167, 255)
+TextLabel_105.BorderSizePixel = 0
+TextLabel_105.Position = UDim2.new(0.0424929187, 0, 0.0698412731, 0)
+TextLabel_105.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_105.Font = Enum.Font.SourceSans
+TextLabel_105.Text = ""
+TextLabel_105.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_105.TextSize = 14.000
+
+TextLabel_106.Parent = TextLabel_105
+TextLabel_106.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_106.BorderSizePixel = 0
+TextLabel_106.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_106.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_106.Font = Enum.Font.SciFi
+TextLabel_106.Text = "Pastel violet"
+TextLabel_106.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_106.TextSize = 22.000
+
+TextLabel_107.Parent = ScrollingColors4
+TextLabel_107.BackgroundColor3 = Color3.fromRGB(159, 243, 233)
+TextLabel_107.BorderSizePixel = 0
+TextLabel_107.Position = UDim2.new(0.0424929187, 0, 0.126984134, 0)
+TextLabel_107.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_107.Font = Enum.Font.SourceSans
+TextLabel_107.Text = ""
+TextLabel_107.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_107.TextSize = 14.000
+
+TextLabel_108.Parent = TextLabel_107
+TextLabel_108.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_108.BorderSizePixel = 0
+TextLabel_108.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_108.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_108.Font = Enum.Font.SciFi
+TextLabel_108.Text = "Pastel blue-green"
+TextLabel_108.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_108.TextSize = 22.000
+
+TextLabel_109.Parent = ScrollingColors4
+TextLabel_109.BackgroundColor3 = Color3.fromRGB(204, 255, 204)
+TextLabel_109.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_109.BorderSizePixel = 0
+TextLabel_109.Position = UDim2.new(0.0424929187, 0, 0.184126988, 0)
+TextLabel_109.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_109.Font = Enum.Font.SourceSans
+TextLabel_109.Text = ""
+TextLabel_109.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_109.TextSize = 14.000
+
+TextLabel_110.Parent = TextLabel_109
+TextLabel_110.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_110.BorderSizePixel = 0
+TextLabel_110.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_110.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_110.Font = Enum.Font.SciFi
+TextLabel_110.Text = "Pastel green"
+TextLabel_110.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_110.TextSize = 22.000
+
+TextLabel_111.Parent = ScrollingColors4
+TextLabel_111.BackgroundColor3 = Color3.fromRGB(255, 255, 204)
+TextLabel_111.BorderSizePixel = 0
+TextLabel_111.Position = UDim2.new(0.0424929187, 0, 0.242857143, 0)
+TextLabel_111.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_111.Font = Enum.Font.SourceSans
+TextLabel_111.Text = ""
+TextLabel_111.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_111.TextSize = 14.000
+
+TextLabel_112.Parent = TextLabel_111
+TextLabel_112.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_112.BorderSizePixel = 0
+TextLabel_112.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_112.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_112.Font = Enum.Font.SciFi
+TextLabel_112.Text = "Pastel yellow"
+TextLabel_112.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_112.TextSize = 22.000
+
+TextLabel_113.Parent = ScrollingColors4
+TextLabel_113.BackgroundColor3 = Color3.fromRGB(255, 204, 153)
+TextLabel_113.BorderSizePixel = 0
+TextLabel_113.Position = UDim2.new(0.0424929187, 0, 0.300000012, 0)
+TextLabel_113.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_113.Font = Enum.Font.SourceSans
+TextLabel_113.Text = ""
+TextLabel_113.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_113.TextSize = 14.000
+
+TextLabel_114.Parent = TextLabel_113
+TextLabel_114.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_114.BorderSizePixel = 0
+TextLabel_114.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_114.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_114.Font = Enum.Font.SciFi
+TextLabel_114.Text = "Pastel brown"
+TextLabel_114.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_114.TextSize = 22.000
+
+TextLabel_115.Parent = ScrollingColors4
+TextLabel_115.BackgroundColor3 = Color3.fromRGB(98, 37, 209)
+TextLabel_115.BorderSizePixel = 0
+TextLabel_115.Position = UDim2.new(0.0424929187, 0, 0.357142866, 0)
+TextLabel_115.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_115.Font = Enum.Font.SourceSans
+TextLabel_115.Text = ""
+TextLabel_115.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_115.TextSize = 14.000
+
+TextLabel_116.Parent = TextLabel_115
+TextLabel_116.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_116.BorderSizePixel = 0
+TextLabel_116.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_116.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_116.Font = Enum.Font.SciFi
+TextLabel_116.Text = "Royal purple"
+TextLabel_116.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_116.TextSize = 22.000
+
+TextLabel_117.Parent = ScrollingColors4
+TextLabel_117.BackgroundColor3 = Color3.fromRGB(255, 0, 191)
+TextLabel_117.BorderSizePixel = 0
+TextLabel_117.Position = UDim2.new(0.0424929187, 0, 0.414285719, 0)
+TextLabel_117.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_117.Font = Enum.Font.SourceSans
+TextLabel_117.Text = ""
+TextLabel_117.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_117.TextSize = 14.000
+
+TextLabel_118.Parent = TextLabel_117
+TextLabel_118.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_118.BorderSizePixel = 0
+TextLabel_118.Position = UDim2.new(1.29999995, 0, 0, 0)
+TextLabel_118.Size = UDim2.new(0, 259, 0, 30)
+TextLabel_118.Font = Enum.Font.SciFi
+TextLabel_118.Text = "Hot pink"
+TextLabel_118.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_118.TextSize = 22.000
+
+Title.Name = "Title"
+Title.Parent = Background4
+Title.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.Size = UDim2.new(0, 353, 0, 42)
+Title.Font = Enum.Font.SciFi
+Title.Text = "Fate Hub Brick Colors"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 24.000
+
+Close.Name = "Close"
+Close.Parent = Background4
+Close.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.866855562, 0, 0.142857075, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Click:Connect(function()
+	Background4.Visible = false
+end)
+
+NumberFrame.Name = "NumberFrame"
+NumberFrame.Parent = Background4
+NumberFrame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+NumberFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NumberFrame.Position = UDim2.new(0, 0, 8.5, 0)
+NumberFrame.Size = UDim2.new(0, 353, 0, 40)
+
+Options.Name = "Options"
+Options.Parent = NumberFrame
+Options.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Options.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Options.Position = UDim2.new(0.532577932, 0, 0, 0)
+Options.Size = UDim2.new(0, 165, 0, 40)
+
+UIGridLayout.Parent = Options
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 1, 0, 5)
+UIGridLayout.CellSize = UDim2.new(0, 40, 0, 40)
+
+Page1.Name = "Page1"
+Page1.Parent = Options
+Page1.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Page1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page1.BorderSizePixel = 0
+Page1.Size = UDim2.new(0, 200, 0, 50)
+Page1.Font = Enum.Font.SourceSans
+Page1.Text = "1"
+Page1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1.TextSize = 18.000
+Page1.MouseButton1Down:Connect(function()
+	ScrollingColors1.Visible = true
+	ScrollingColors2.Visible = false
+	ScrollingColors3.Visible = false
+	ScrollingColors4.Visible = false
+end)
+
+Page2.Name = "Page2"
+Page2.Parent = Options
+Page2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Page2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page2.BorderSizePixel = 0
+Page2.Size = UDim2.new(0, 200, 0, 50)
+Page2.Font = Enum.Font.SourceSans
+Page2.Text = "2"
+Page2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2.TextSize = 18.000
+Page2.MouseButton1Down:Connect(function()
+	ScrollingColors2.Visible = true
+	ScrollingColors1.Visible = false
+	ScrollingColors3.Visible = false
+	ScrollingColors4.Visible = false
+end)
+
+Page3.Name = "Page3"
+Page3.Parent = Options
+Page3.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Page3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page3.BorderSizePixel = 0
+Page3.Size = UDim2.new(0, 200, 0, 50)
+Page3.Font = Enum.Font.SourceSans
+Page3.Text = "3"
+Page3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page3.TextSize = 18.000
+Page3.MouseButton1Down:Connect(function()
+	ScrollingColors3.Visible = true
+	ScrollingColors2.Visible = false
+	ScrollingColors1.Visible = false
+	ScrollingColors4.Visible = false
+end)
+
+Page4.Name = "Page4"
+Page4.Parent = Options
+Page4.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Page4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page4.BorderSizePixel = 0
+Page4.Size = UDim2.new(0, 200, 0, 50)
+Page4.Font = Enum.Font.SourceSans
+Page4.Text = "4"
+Page4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page4.TextSize = 18.000
+Page4.MouseButton1Down:Connect(function()
+	ScrollingColors4.Visible = true
+	ScrollingColors3.Visible = false
+	ScrollingColors1.Visible = false
+	ScrollingColors2.Visible = false
+end)
+
+PageTitle.Name = "PageTitle"
+PageTitle.Parent = NumberFrame
+PageTitle.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+PageTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PageTitle.Size = UDim2.new(0, 188, 0, 40)
+PageTitle.Font = Enum.Font.SciFi
+PageTitle.Text = "Pages:"
+PageTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageTitle.TextSize = 24.000
+
+Minimize.Name = "Minimize"
+Minimize.Parent = Background4
+Minimize.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0.0424928665, 0, 0.142857075, 0)
+Minimize.Size = UDim2.new(0, 30, 0, 30)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.TextSize = 40.000
+Minimize.MouseButton1Click:Connect(function()
+	if Background4.BackgroundTransparency == 0 then
+		Background4.BackgroundTransparency = 1
+		ColorContainer.Visible = false
+		NumberFrame.Visible = false
+	elseif Background4.BackgroundTransparency == 1 then
+		Background4.BackgroundTransparency = 0
+		ColorContainer.Visible = true
+		NumberFrame.Visible = true
+	end
+end)
